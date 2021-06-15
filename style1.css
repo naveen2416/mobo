@@ -1,0 +1,170 @@
+/* body */
+body{
+    font-family: 'Crimson Text',Georgia,"Times New Roman",serif;
+    font-family: "Titillium Web";
+}
+/* header */
+.header{
+    background-color: #333E42;
+    font-family: 'Crimson Text',Georgia,"Times New Roman",serif;
+}
+.header .container{
+    padding: 0px;
+}
+.header .row{
+    height: 105px;
+}
+.header .header-col-1 img{
+    max-width: 80%;
+}
+.header .header-col-2 a{
+    color:#E2BF81;
+    font-size: 23px;
+    text-decoration: none;    
+}
+/* about */
+.about{
+    background-image: url('./images/image-1.jpg');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .container{
+    padding: 185px 0px;
+}
+.about .title p{
+    color: white;
+    font-family: "Titillium Web";
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    margin: 100px 0px 0px 0px;
+    word-spacing: 4px;
+    line-height: 70px;
+}
+.about .about-row{
+    color: white;
+    text-align: center;
+    margin:100px 0px 0px 0px;
+}
+.about .about-col{
+    border: 1px solid #E2BF81;
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.about .about-col:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s linear;
+}
+/* information */
+.information .container{
+    padding: 80px 0px;
+}
+.information h1{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    word-spacing: 2px;
+}
+.information h2{
+    font-size: 17px;
+    text-align: center;
+    word-spacing: 2px;
+    font-weight: 500;
+}
+.information p{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.information .name{
+    height: 35px;
+    width: 49%;
+}
+.information .tel{
+    height: 35px;
+    width: 49%;
+}
+.information .email{
+    height: 35px;
+    width: 98%;
+}
+.information .message{
+    height: 50px;
+    width: 98%;
+}
+.information .submit{
+    background-color: black;
+    color: white;
+    margin-left: 88%;
+}
+.information input{
+    text-transform: capitalize;
+    margin: 10px 0px;
+    background-color: #d3d2d2c5;
+    border: none;
+}
+/* footer */
+.footer{
+    background-color: #333E42;
+}
+.footer .content{
+    padding: 65px 0px;
+}
+.footer .col-3{
+    padding: 0px 30px 0px 0px;
+}
+.footer .content a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer .content ul{
+    padding: 0px;
+    margin: 0px;
+}
+.footer .content li{
+    list-style: none;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.footer .content a:hover{
+    color: #E2BF81;
+    transition: 0.5s linear;
+}
+.footer .content .heading{
+    color: #E2BF81;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+/* social-media */
+.social-media{
+    background-color: #222A2D;
+}
+.social-media .content{
+    padding: 12px 0px;
+}
+.social-media .content a{
+    text-decoration: none;
+}
+.social-media .content i{
+    font-size: 30px;
+    color: #E2BF81;
+    padding: 0px 8px;
+}
+.social-media .content #google{
+    font-size: 40px;
+}
+.social-media .content p{
+    color: #fff;
+    font-size: 15px;
+    margin: 0px;
+    padding: 10px 0px 0px 50px;
+}
